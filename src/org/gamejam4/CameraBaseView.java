@@ -19,7 +19,7 @@ public abstract class CameraBaseView extends SurfaceView implements SurfaceHolde
     private SurfaceHolder       mHolder;
     private VideoCapture        mCamera;
 
-	protected int currentGreyscaleLevel = 255;
+	protected int currentGreyscaleLevel = 150;
 
     public CameraBaseView(Context context) {
         super(context);
